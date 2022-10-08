@@ -417,6 +417,10 @@
 			"ServerCallback": {
 				"Before": "MessageUtils_ServerInit"
 			}
+		},
+		{
+			"Path": "sh_northstar_http_requests.nut",
+			"RunOn": "( CLIENT || SERVER ) && MP"
 		}
 	],
 
